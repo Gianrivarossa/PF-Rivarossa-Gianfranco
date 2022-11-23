@@ -51,7 +51,7 @@ input, textarea{
 body{
     margin: 0;
     padding: 0;
-    background: url(img/pexels-chris-f-1283219.jpg);   
+    background-image: url(../img/pexels-chris-f-1283219.jpg);  
     background-size: cover;
     background-position: center;
     font-family: 'Inconsolata', monospace;
@@ -61,34 +61,12 @@ body{
     max-width:  1400px; 
     margin: auto;
 }
-
-.menu li a{
-    display: inline-block;
-    color: yellow;
-    text-decoration: none;
-    background-color: gray;
-    padding: 10px ;
-    height: 20px;
-    font-size: 20px;
-    border-radius: 100%;
-}
-.container_cartas {
+.carousel-inner{
+    width: 400;
+    height: 800;
     text-align: center;
-    width: auto;
-    height: auto;
-    margin: 50px auto 0;
-    animation: slide 16s infinite alternate ease-in-out;
-    overflow: hidden;
 }
-.container_cartas ul{
-    display: flex;
-    padding: 0;
-    width: 400%;
-}
-.container_cartas li{
-list-style: none;
-width: 100%;
-}
+
 footer{
      background-color: black;
 margin: 0;
