@@ -3,18 +3,30 @@
 }
 h1{font-size: 5em;
      font-family: 'Inconsolata', monospace;
-      color: yellow;}
+      color: yellow; 
+    padding: 60px;
+    }
       h2{
         font-size: 3.5em;
         font-family: 'Inconsolata', monospace;
         color: yellow;
         text-align: center;
       }
+      h3{
+        text-align: center;
+        font-size: 2em;
+     font-family:'Inconsolata', monospace ;
+     color: yellow; 
+     background-color: black;
+    margin: 30px;
+      }
 p{font-size: 2em;
      font-family:'Inconsolata', monospace ;
      color: whitesmoke; 
      background-color: black;
-     text-align: center;}
+     text-align: center;
+    margin: 30px;
+    }
 nav{font-size: 2.5em; 
     font-family: 'Inconsolata', monospace;
     color: whitesmoke;
@@ -24,7 +36,11 @@ header{background-color: black;
      padding: 40px;
      top: 0;
      vertical-align: top;
+     text-align: center;
 
+    }
+    a:link, a:visited{
+        text-decoration: none;
     }
 header.logo{
     margin: 0;
@@ -51,15 +67,20 @@ input, textarea{
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../img/pexels-chris-f-1283219.jpg);  
+    background-image: url(../img/pexels-chris-f-1283219-modified.jpg); 
     background-size: cover;
     background-position: center;
     font-family: 'Inconsolata', monospace;
     max-height: none;
 }
-.container{
-    max-width:  1400px; 
-    margin: auto;
+.main{
+    width: 50%;
+
+}
+.carousel-inner-galeria{
+    width: 600;
+    height: 300;
+    text-align: center;
 }
 .carousel-inner{
     width: 400;
